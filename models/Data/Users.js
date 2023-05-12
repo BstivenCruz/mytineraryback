@@ -1,0 +1,53 @@
+[
+  {
+    id: "user1",
+    name: "Joaquin",
+    lastName: "Sarmiento",
+    photo: "https://alsum.co/wp-content/uploads/2022/02/Joaquin-Sarmiento.jpg",
+    age: 31,
+    email: "joaquin.sar@gmail.com",
+    password: "domingo",
+    code: "equipo-rosa",
+    verified: true,
+    logged: true,
+  },
+  {
+    id: "user2",
+    name: "Maria Jose",
+    lastName: "Puentes",
+    photo:
+      "https://pbs.twimg.com/profile_images/1186673569910153218/vo44yV92_400x400.jpg",
+    age: 28,
+    email: "maria.jopu@gmail.com",
+    password: "domingo",
+    code: "equipo-rosa",
+    verified: true,
+    logged: true,
+  },
+  {
+    id: "user3",
+    name: "Paolo",
+    lastName: "Ezquivel",
+    photo:
+      "https://www.mskcc.org/sites/default/files/styles/width_800/public/node/17927/image/paolo.jpg",
+    age: 36,
+    email: "paolo.ezqui@gmail.com",
+    password: "domingo",
+    code: "equipo-rosa",
+    verified: true,
+    logged: true,
+  },
+  {
+    id: "user4",
+    name: "Sami",
+    lastName: "Torres",
+    photo:
+      "https://www.estylomagazine.com/wp-content/uploads/2021/05/Post_Samantha-Torres-01-800x533.jpg",
+    age: 22,
+    email: "Sami.torres@gmail.com",
+    password: "domingo",
+    code: "equipo-rosa",
+    verified: true,
+    logged: true,
+  },
+];
