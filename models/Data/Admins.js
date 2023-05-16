@@ -1,4 +1,4 @@
-[
+export const admins = [
   {
     id: "admin1",
     name: "Pablo",

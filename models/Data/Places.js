@@ -1,4 +1,4 @@
-[
+export const places = [
   {
     id: "ho1",
     name: "Plaza Hotel",

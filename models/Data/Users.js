@@ -1,4 +1,4 @@
-[
+export const users = [
   {
     id: "user1",
     name: "Joaquin",
