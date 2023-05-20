@@ -13,4 +13,4 @@ const schema = new mongoose.Schema(
   }
 );
 
-export const Cit = mongoose.model("cities", schema);
+export const City = mongoose.model("cities", schema);
