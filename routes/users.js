@@ -1,7 +1,10 @@
 import express from "express";
 import passport from "passport";
+import passwordOk from "../middlewares/passwordOk.js";
 import user from "../controllers/users.js";
-const { signup, signin, signout , read} = user;
+const { signup, signin, signout, read } = user;
+import accountExist from "../middlewares/accountExist.js";
+const { existSignin, existSignup } = accountExist;
 
 const router = express.Router();
 
@@ -11,8 +14,8 @@ router.get("/", function (req, res, next) {
 });
 
 router.get("/", read);
-router.post("/signup", signup);
-router.post("/signin", signin);
+router.post("/signup", existSignup, signup);
+router.post("/signin", existSignin, passwordOk, signin);
 router.put(
   "/signout",
   passport.authenticate("jwt", { session: false }),
