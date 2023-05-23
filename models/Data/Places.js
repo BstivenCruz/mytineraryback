@@ -1,6 +1,5 @@
 export const places = [
   {
-    id: "ho1",
     name: "Plaza Hotel",
     photo: [
       "https://www.nycgo.com/images/venues/2229/6_the_palm_court_interior__large.jpg",
@@ -8,11 +7,10 @@ export const places = [
       "https://cf.bstatic.com/xdata/images/hotel/max500/260383552.jpg?k=10dc61c4f781c977c40ff9d88d0eb70ac8a7f8dcae94206a011916589bdcd254&o=&hp=1",
     ],
     capacity: 200,
-    cityId: "",
-    userId: "adm1",
+    cityId: "Nueva York",
+    userId: "Pablo",
   },
   {
-    id: "ho2",
     name: "Regency Hotel",
     photo: [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/5b/05/f0/entrada-do-hotel.jpg?w=700&h=-1&s=1",
@@ -20,11 +18,10 @@ export const places = [
       "https://www.regency.com.uy/cache/a4/24/a4248164bebe64e93f2ea8c0c4775037.jpg",
     ],
     capacity: 150,
-    cityId: "",
-    userId: "adm1",
+    cityId: "Nueva York",
+    userId: "Pablo",
   },
   {
-    id: "ho3",
     name: "Grand Hotel",
     photo: [
       "https://pix10.agoda.net/hotelImages/986/0/2f89f8a05d1252017d7c6c155d709daa.jpg?ca=0&ce=1&s=1024x768",
@@ -32,11 +29,10 @@ export const places = [
       "https://www.michigan.org/sites/default/files/styles/image_main_content_desktop/public/2023-01/Grand-Hotel-Pool_2.jpg?itok=gueKC_0T",
     ],
     capacity: 300,
-    cityId: "",
-    userId: "adm1",
+    cityId: "Londres",
+    userId: "Stiven",
   },
   {
-    id: "ho4",
     name: "Royal Hotel",
     photo: [
       "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_627,q_auto,w_1200/itemimages/24/02/240241_v5.jpeg",
@@ -44,11 +40,10 @@ export const places = [
       "https://pix10.agoda.net/hotelImages/11104/0/05a41e10bb1671a4bce932c054b9003d.jpg?ca=7&ce=1&s=1024x768",
     ],
     capacity: 250,
-    cityId: "",
-    userId: "adm1",
+    cityId: "Londres",
+    userId: "Stiven",
   },
   {
-    id: "ho5",
     name: "Marriott Hotel",
     photo: [
       "https://cf.bstatic.com/xdata/images/hotel/max1280x900/112486687.jpg?k=92d57c0b4d6b92f6c49191a2b79e3b732040de68d5ab55fda673ac64b7277bcb&o=&hp=1",
@@ -56,11 +51,10 @@ export const places = [
       "https://marriottnews.brightspotcdn.com/dims4/default/47cff33/2147483647/strip/true/crop/3720x2480+0+0/resize/3720x2480!/quality/100/?url=https%3A%2F%2Fmarriottnews.brightspotcdn.com%2Fbf%2F43%2F3181264d4e25a9aa73532b428d09%2Fjw-marriott-hotel-berlin-lobby.jpg",
     ],
     capacity: 400,
-    cityId: "",
-    userId: "adm1",
+    cityId: "Miami",
+    userId: "Juan",
   },
   {
-    id: "ho6",
     name: "Hilton Hotel",
     photo: [
       "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_627,q_auto,w_1200/itemimages/36/37/363786_v3.jpeg",
@@ -68,11 +62,10 @@ export const places = [
       "https://pix10.agoda.net/hotelImages/50965/-1/15e8fd101fe6a744c3a2fb7b5e092587.jpg?ca=0&ce=1&s=1024x768",
     ],
     capacity: 350,
-    cityId: "",
-    userId: "adm1",
+    cityId: "Miami",
+    userId: "Juan",
   },
   {
-    id: "ho7",
     name: "Bellagio Casino",
     photo: [
       "https://media-cdn.tripadvisor.com/media/photo-s/28/6b/79/ff/bellagio.jpg",
@@ -80,11 +73,10 @@ export const places = [
       "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/495000/495529-bellagio-casino.jpg",
     ],
     capacity: 1000,
-    cityId: "",
-    userId: "adm1",
+    cityId: "Los Ángeles",
+    userId: "Stiven",
   },
   {
-    id: "ho8",
     name: "Venetian Casino",
     photo: [
       "https://www.venetianlasvegas.com/content/dam/venetian/casino/palazzo-casino-2_2000x812.jpg",
@@ -92,11 +84,10 @@ export const places = [
       "https://upload.wikimedia.org/wikipedia/commons/1/1e/VenetianLasVegas.jpg",
     ],
     capacity: 1200,
-    cityId: "",
-    userId: "adm1",
+    cityId: "Venecia",
+    userId: "Juan",
   },
   {
-    id: "ho9",
     name: "MGM Grand Casino",
     photo: [
       "https://images.contentstack.io/v3/assets/bltc6ce635bc4868eb2/blt131ada49d9ba261b/630548b04c3f1f60e81b497e/EMP128465064.jpg",
@@ -104,11 +95,10 @@ export const places = [
       "https://upload.wikimedia.org/wikipedia/commons/d/da/LasVegas-MGMgrand.jpg",
     ],
     capacity: 1500,
-    cityId: "",
-    userId: "adm1",
+    cityId: "Rio de Janeiro",
+    userId: "Juan",
   },
   {
-    id: "ho10",
     name: "Caesars Palace Casino",
     photo: [
       "https://c8.alamy.com/compes/d3rhyj/el-casino-caesar-palace-en-las-vegas-el-caesars-palace-es-un-lujoso-hotel-y-casino-ubicado-en-las-vegas-d3rhyj.jpg",
@@ -116,11 +106,10 @@ export const places = [
       "https://previews.agefotostock.com/previewimage/medibigoff/f250207b15094660a02c888efd4d666e/z8f-2831940.jpg",
     ],
     capacity: 1300,
-    cityId: "",
-    userId: "adm1",
+    cityId: "Roma",
+    userId: "Luciana",
   },
   {
-    id: "ho11",
     name: "Casino Wynn",
     photo: [
       "https://pix10.agoda.net/hotelImages/50345/-1/673b2a5f817d65090d3b33d635e61ca8.jpg?ca=12&ce=1&s=1024x768",
@@ -128,11 +117,10 @@ export const places = [
       "https://cdn.wynnresorts.com/q_auto,f_auto/Wynn%20Las%20Vegas/Casino/Casino%20Teaser%20Card/837_Wynn_RaceAndSportsBook_Barbara_Kraft?h=466&iar=0&w=828",
     ],
     capacity: 800,
-    cityId: "",
-    userId: "adm1",
+    cityId: "Shanghai",
+    userId: "Juan",
   },
   {
-    id: "ho12",
     name: "Casino Cosmopolitan",
     photo: [
       "https://storage.googleapis.com/cdn.thenevadaindependent.com/2017/10/5700936224_bfb4399218_b-1024x768.jpg",
@@ -140,7 +128,7 @@ export const places = [
       "https://images.ctfassets.net/sahy2rpqbnsp/WZA1pIRUSVTHRDPtdpQP7/b0f4b0d8c8c48ac18b39005c70ccb831/1600-casino-floor-slots-wide.jpg?w=640&h=360&fm=jpg&q=50&fit=fill",
     ],
     capacity: 900,
-    cityId: "",
-    userId: "adm1",
+    cityId: "Dublin",
+    userId: "Luciana",
   },
 ];

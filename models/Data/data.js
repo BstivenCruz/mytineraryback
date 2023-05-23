@@ -10,8 +10,12 @@ import { Place } from "../Place.js";
 import { User } from "../User.js";
 
 
-let newAdmins = async (admins) => await Admin.insertMany(admins)
+let newUsers = async (users) => await User.insertMany(users);
 
-let newUsers = async (users) => await User.insertMany(users)
-
-
+let newRoles = async (rol1) => {
+  for (let author of rol1) {
+    let user = await User.findOne({ email: author.user_id });
+    author.user_id = user._id;
+    await Admin.create(author);
+  }
+};
