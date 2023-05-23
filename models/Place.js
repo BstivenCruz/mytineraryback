@@ -6,7 +6,6 @@ const schema = new mongoose.Schema(
     photo: { type: Array, required: true },
     capacity: { type: Number, required: true },
     cityId: { type: mongoose.Types.ObjectId, ref: "cities", required: true },
-    userId: { type: mongoose.Types.ObjectId, ref: "users", required: true },
   },
   { timestamps: true }
 );

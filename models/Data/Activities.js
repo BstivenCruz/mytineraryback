@@ -1,6 +1,6 @@
-export const actividades = [
+export const activities = [
   {
-    cityid: "Tokio",
+    cityId: "Tokio",
     name: "Visit to Sensoji Temple and Asakusa neighborhood",
     photo: [
       "https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/03/a0003469/img/basic/a0003469_main.jpg?20200807174214",
@@ -14,7 +14,7 @@ export const actividades = [
   },
 
   {
-    cityid: "Tokio",
+    cityId: "Tokio",
     name: "Tokyo Tower and Shiba Park Tour",
     photo: [
       "https://www.gotokyo.org/en/spot/4/images/4_0097_3_1400x1100.jpg",
@@ -27,7 +27,7 @@ export const actividades = [
     duration: 2,
   },
   {
-    cityid: "Mexico city",
+    cityId: "Ciudad de México",
     name: "Gastronomic tour of the Historic Center",
     photo: [
       "https://www.freetour.com/images/tours/28751/free-history-food-tour-of-the-historic-center-of-mexico-city-01.jpg",
@@ -35,12 +35,12 @@ export const actividades = [
       "https://www.gpsmycity.com/img/gd/2071.jpg",
     ],
     description:
-      "Gastronomic tour of the Historic Center of Mexico City, visiting the most emblematic markets, restaurants and food stalls of the city. During the tour you will be able to try the most representative dishes of Mexican gastronomy.",
+      "Gastronomic tour of the Historic Center of Ciudad de México, visiting the most emblematic markets, restaurants and food stalls of the city. During the tour you will be able to try the most representative dishes of Mexican gastronomy.",
     price: 40,
     duration: 4,
   },
   {
-    cityid: "Mexico City",
+    cityId: "Ciudad de México",
     name: "Visit to the Teotihuacán pyramids",
     photo: [
       "https://www.mexperience.com/wp-content/uploads/Pyramid-of-the-Sun-Teotihuacan-Mexico-750x375.jpg",
@@ -53,7 +53,7 @@ export const actividades = [
     duration: 6,
   },
   {
-    cityid: "Nueva York",
+    cityId: "Nueva York",
     name: "Bike Tour through Central Park",
     photo: [
       "https://www.centralpark.com/downloads/8522/download/bike%20riding.jpg?cb=39cc47ae1d1559aadbe34417c9666c0f&w=1200",
@@ -66,7 +66,7 @@ export const actividades = [
     duration: 3,
   },
   {
-    cityid: "Nueva York",
+    cityId: "Nueva York",
     name: "Visit to the Empire State Building",
     photo: [
       "https://www.findingtheuniverse.com/wp-content/uploads/2020/07/Crowds-on-observation-deck-at-Empire-State-Building_by_Laurence-Norah.jpg",
@@ -79,7 +79,7 @@ export const actividades = [
     duration: 2,
   },
   {
-    cityid: "Pekín",
+    cityId: "Pekín",
     name: "Mutianyu Great Wall Tour",
     photo: [
       "https://www.meganstarr.com/wp-content/uploads/2021/04/Great-Wall-of-China-2.jpg",
@@ -92,7 +92,7 @@ export const actividades = [
     duration: 4,
   },
   {
-    cityid: "Pekín",
+    cityId: "Pekín",
     name: "Jinshanling Great Wall Trekking",
     photo: [
       "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/71/7b/70.jpg",
@@ -105,7 +105,7 @@ export const actividades = [
     duration: 6,
   },
   {
-    cityid: "Buenos Aires",
+    cityId: "Buenos Aires",
     name: "San Telmo Tango Tour",
     photo: [
       "https://static.wixstatic.com/media/93fdbb_f4ab09b165b04a19a0e0183ac5bc1b5e~mv2.jpg/v1/fill/w_420,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/senor-tango-801x563.jpg",
@@ -118,7 +118,7 @@ export const actividades = [
     duration: 3,
   },
   {
-    cityid: "Buenos Aires",
+    cityId: "Buenos Aires",
     name: "Visit to the Teatro Colón",
     photo: [
       "https://teatrocolon.org.ar/sites/default/files/styles/d8/public/teatro-colon-argentina-image_1366_768.jpg?itok=bpxe64GH",
@@ -131,7 +131,7 @@ export const actividades = [
     duration: 2,
   },
   {
-    cityid: "Sao Paulo",
+    cityId: "Sao Paulo",
     name: "Gastronomic tour of the Jardins neighborhood",
     photo: [
       "https://img.itinari.com/page/content/original/5e57033e-0c07-4cfa-9ca5-fd7b9b1cd8cb-istock-503051862.jpg?ch=DPR&dpr=2.625&w=994&s=3c4a69c0d2b410f831e1cde9e57a472f",
@@ -144,7 +144,7 @@ export const actividades = [
     duration: 4,
   },
   {
-    cityid: "Sao Paulo",
+    cityId: "Sao Paulo",
     name: "Visit to the São Paulo Museum of Art",
     photo: [
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/fe/64/8d/masp-en-la-avenida-paulista.jpg?w=1200&h=1200&s=1",

@@ -8,7 +8,6 @@ export const places = [
     ],
     capacity: 200,
     cityId: "Nueva York",
-    userId: "Pablo",
   },
   {
     name: "Regency Hotel",
@@ -19,10 +18,9 @@ export const places = [
     ],
     capacity: 150,
     cityId: "Nueva York",
-    userId: "Pablo",
   },
   {
-    name: "Grand Hotel",
+    name: "Hotel Grand",
     photo: [
       "https://pix10.agoda.net/hotelImages/986/0/2f89f8a05d1252017d7c6c155d709daa.jpg?ca=0&ce=1&s=1024x768",
       "https://upload.wikimedia.org/wikipedia/commons/b/b2/Grand_Hotel_June_2018_01.jpg",
@@ -30,7 +28,6 @@ export const places = [
     ],
     capacity: 300,
     cityId: "Londres",
-    userId: "Stiven",
   },
   {
     name: "Royal Hotel",
@@ -41,7 +38,6 @@ export const places = [
     ],
     capacity: 250,
     cityId: "Londres",
-    userId: "Stiven",
   },
   {
     name: "Marriott Hotel",
@@ -52,7 +48,6 @@ export const places = [
     ],
     capacity: 400,
     cityId: "Miami",
-    userId: "Juan",
   },
   {
     name: "Hilton Hotel",
@@ -63,7 +58,6 @@ export const places = [
     ],
     capacity: 350,
     cityId: "Miami",
-    userId: "Juan",
   },
   {
     name: "Bellagio Casino",
@@ -74,7 +68,6 @@ export const places = [
     ],
     capacity: 1000,
     cityId: "Los Ángeles",
-    userId: "Stiven",
   },
   {
     name: "Venetian Casino",
@@ -85,7 +78,6 @@ export const places = [
     ],
     capacity: 1200,
     cityId: "Venecia",
-    userId: "Juan",
   },
   {
     name: "MGM Grand Casino",
@@ -96,10 +88,9 @@ export const places = [
     ],
     capacity: 1500,
     cityId: "Rio de Janeiro",
-    userId: "Juan",
   },
   {
-    name: "Caesars Palace Casino",
+    name: "Caesars Palace",
     photo: [
       "https://c8.alamy.com/compes/d3rhyj/el-casino-caesar-palace-en-las-vegas-el-caesars-palace-es-un-lujoso-hotel-y-casino-ubicado-en-las-vegas-d3rhyj.jpg",
       "https://www.caesars.com/content/dam/empire/clv/casino/tables-games/1600x900/clv-casino-floor-01-1600x900.jpg",
@@ -107,7 +98,6 @@ export const places = [
     ],
     capacity: 1300,
     cityId: "Roma",
-    userId: "Luciana",
   },
   {
     name: "Casino Wynn",
@@ -118,7 +108,6 @@ export const places = [
     ],
     capacity: 800,
     cityId: "Shanghai",
-    userId: "Juan",
   },
   {
     name: "Casino Cosmopolitan",
@@ -129,6 +118,5 @@ export const places = [
     ],
     capacity: 900,
     cityId: "Dublin",
-    userId: "Luciana",
   },
 ];

@@ -5,7 +5,6 @@ export const cities = [
     photo:
       "https://www.vacationstravel.com/wp-content/uploads/2021/10/shutterstock_1281956065.jpg",
     population: 37400068,
-    adminId: "Pablo",
   },
   {
     name: "Ciudad de México",
@@ -13,7 +12,6 @@ export const cities = [
     photo:
       "https://i.natgeofe.com/n/6c02ad5a-977b-4f12-b9c0-02ffb0736e07/metropolitan-cathedral-zocalo-mexico-city.JPG",
     population: 21782378,
-    adminId: "Pablo",
   },
   {
     name: "Estambul",
@@ -21,7 +19,6 @@ export const cities = [
     photo:
       "https://a.cdn-hotels.com/gdcs/production6/d781/3bae040b-2afb-4b11-9542-859eeb8ebaf1.jpg",
     population: 15126250,
-    adminId: "Pablo",
   },
   {
     name: "Nueva York",
@@ -29,7 +26,6 @@ export const cities = [
     photo:
       "https://image.cnbcfm.com/api/v1/image/106268734-1574876711571gettyimages-1059614218.jpeg?v=1576856860",
     population: 18713220,
-    adminId: "Pablo",
   },
   {
     name: "Sao Paulo",
@@ -37,7 +33,6 @@ export const cities = [
     photo:
       "https://singularityhub.com/wp-content/uploads/2018/04/sao-paulo-octavio-frias-de-oliveira-bridge-brazil-latin-america-153080222.jpg",
     population: 22043028,
-    adminId: "Pablo",
   },
   {
     name: "Mumbai",
@@ -45,7 +40,6 @@ export const cities = [
     photo:
       "https://cdn.britannica.com/26/84526-050-45452C37/Gateway-monument-India-entrance-Mumbai-Harbour-coast.jpg",
     population: 23355000,
-    adminId: "Pablo",
   },
   {
     name: "Pekín",
@@ -53,14 +47,12 @@ export const cities = [
     photo:
       "https://www.orangesmile.com/common/img_cities_original/beijing--1898541-5.jpg",
     population: 21516000,
-    adminId: "Pablo",
   },
   {
     name: "Moscú",
     pais: "Rusia",
     photo: "https://www.webuildvalue.com/wp-content/uploads/2020/07/Moscow.jpg",
     population: 12506468,
-    adminId: "Stiven",
   },
   {
     name: "El Cairo",
@@ -68,7 +60,6 @@ export const cities = [
     photo:
       "https://d3rr2gvhjw0wwy.cloudfront.net/uploads/mandators/49581/file-manager/egypt-cairo.jpg",
     population: 20484965,
-    adminId: "Stiven",
   },
   {
     name: "Londres",
@@ -76,7 +67,6 @@ export const cities = [
     photo:
       "https://www.eliberico.com/wp-content/uploads/2023/03/city-de-londres-1024x684.jpg",
     population: 8982000,
-    adminId: "Stiven",
   },
   {
     name: "Los Ángeles",
@@ -84,7 +74,6 @@ export const cities = [
     photo:
       "https://mybrand.schroders.com/m/a68ffc81cf4a8273/original/Los-Angeles-California-usa-Hollywood-boulevard-at-sunset.jpg",
     population: 13214759,
-    adminId: "Stiven",
   },
   {
     name: "Buenos Aires",
@@ -92,7 +81,6 @@ export const cities = [
     photo:
       "https://www.cepal.org/sites/default/files/styles/1920x1080/public/regionaloffice/images/buenos_aires.jpg?itok=ZlvK1Buc",
     population: 16157000,
-    adminId: "Stiven",
   },
   {
     name: "Busan",
@@ -100,7 +88,6 @@ export const cities = [
     photo:
       "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/246000/246849-Busan.jpg",
     population: 3358763,
-    adminId: "Stiven",
   },
   {
     name: "Kyoto",
@@ -108,35 +95,30 @@ export const cities = [
     photo:
       "https://boutiquejapan.com/wp-content/uploads/2019/07/yasaka-pagoda-higashiyama-kyoto-japan.jpg",
     population: 1464890,
-    adminId: "Luciana",
   },
   {
     name: "Paris",
     pais: "France",
     photo: "https://i.ytimg.com/vi/_n6GHaADUOc/maxresdefault.jpg",
     population: 2240621,
-    adminId: "Luciana",
   },
   {
     name: "Roma",
     pais: "Italia",
     photo: "https://img.bekiaviajes.com/ciudades/portada/0000/6-h.jpg",
     population: 2857321,
-    adminId: "Luciana",
   },
   {
     name: "Dublin",
     pais: "Irlanda",
     photo: "https://osi.ie/wp-content/uploads/2018/08/dublin-skyline.jpg",
     population: 527612,
-    adminId: "Luciana",
   },
   {
     name: "Portimão",
     pais: "Portugal",
     photo: "https://enalgarve.com/wp-content/uploads/2018/05/Portimão.jpeg",
     population: 59867,
-    adminId: "Luciana",
   },
   {
     name: "San Sebastian",
@@ -144,7 +126,6 @@ export const cities = [
     photo:
       "https://www.autopista.es/uploads/s1/10/95/70/37/san-sebastian-fue-una-ciudad-muy-famosa-durante-la-belle-epoque.jpeg",
     population: 187849,
-    adminId: "Luciana",
   },
   {
     name: "Rio de Janeiro",
@@ -152,7 +133,6 @@ export const cities = [
     photo:
       "https://images.mnstatic.com/08/7d/087dfd415e06b0651f4528fea6642818.jpg",
     population: 6320446,
-    adminId: "Juan",
   },
   {
     name: "Venecia",
@@ -160,7 +140,6 @@ export const cities = [
     photo:
       "https://planetofhotels.com/guide/sites/default/files/styles/node__blog_post__bp_banner/public/2021-02/Rialto-Bridge.jpg",
     population: 270884,
-    adminId: "Juan",
   },
   {
     name: "Shanghai",
@@ -168,7 +147,6 @@ export const cities = [
     photo:
       "https://content.r9cdn.net/rimg/dimg/7e/34/4e0ebeaf-city-25894-163ff8c890d.jpg?width=1750&height=1000&xhint=1381&yhint=931&crop=true",
     population: 24870895,
-    adminId: "Juan",
   },
   {
     name: "Antofagasta",
@@ -176,13 +154,11 @@ export const cities = [
     photo:
       "https://media.istockphoto.com/id/694208058/es/foto/antofagasta-en-la-noche.jpg?s=612x612&w=0&k=20&c=whlQeLpbh3vtei0xhm_ssbJFomRdM7Fc5RLbZnerZ6g=",
     population: 361873,
-    adminId: "Juan",
   },
   {
     name: "Miami",
     pais: "Estados Unidos",
     photo: "https://www.viajarmiami.com/img/guia-viaje-miami.jpg",
     population: 441003,
-    adminId: "Juan",
   },
 ];

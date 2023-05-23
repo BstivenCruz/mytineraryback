@@ -45,7 +45,8 @@ export const users = [
     code: "equipo-rosa",
     verified: true,
     logged: true,
-  }, {
+  },
+  {
     name: "Pablo",
     lastName: "Muñiz",
     photo:

@@ -1,6 +1,6 @@
-export const eventos = [
+export const events = [
   {
-    hotelId: "Plaza Hotel",
+    placeId: "Plaza Hotel",
     name: "Cirque du Soleil: Mystère",
     description:
       "Acrobatic and theater show that combines music, lights and special effects.",
@@ -10,7 +10,7 @@ export const eventos = [
     date: "2023-06-15",
   },
   {
-    hotelId: "Plaza Hotel",
+    placeId: "Plaza Hotel",
     name: "Elvis Presley Tribute Show",
     description:
       "Concert in homage to the King of Rock and Roll, with impersonators and live musicians.",
@@ -20,7 +20,7 @@ export const eventos = [
     date: "2023-06-20",
   },
   {
-    hotelId: "Hotel Grand",
+    placeId: "Hotel Grand",
     name: "Cirque du Soleil: O",
     description:
       "Water show that combines synchronized swimming, acrobatics and special effects.",
@@ -30,7 +30,7 @@ export const eventos = [
     date: "2023-06-16",
   },
   {
-    hotelId: "Hotel Grand",
+    placeId: "Hotel Grand",
     name: "The Beatles Tribute Show",
     description:
       "Concert in tribute to the legendary Liverpool band, with live musicians and an impressive staging.",
@@ -40,7 +40,7 @@ export const eventos = [
     date: "2023-06-22",
   },
   {
-    hotelId: "Hilton Hotel",
+    placeId: "Hilton Hotel",
     name: "Michael Jackson Tribute Show",
     description:
       "Concert in homage to the King of Pop, with impersonators and live musicians.",
@@ -50,7 +50,7 @@ export const eventos = [
     date: "2023-06-17",
   },
   {
-    hotelId: "Hilton Hotel",
+    placeId: "Hilton Hotel",
     name: "Cirque du Soleil: Zumanity",
     description: "Adult show that combines acrobatics, comedy and sensuality.",
     photo:
@@ -59,7 +59,7 @@ export const eventos = [
     date: "2023-06-23",
   },
   {
-    hotelId: "Bellagio Casino",
+    placeId: "Bellagio Casino",
     name: "David Copperfield: Live",
     description:
       "Magic and illusionism show by the famous magician David Copperfield.",
@@ -69,7 +69,7 @@ export const eventos = [
     date: "2023-06-18",
   },
   {
-    hotelId: "Bellagio Casino",
+    placeId: "Bellagio Casino",
     name: "Jabbawockeez: Timeless",
     description:
       "Urban dance and theater show that combines surprising choreography and special effects.",
@@ -79,7 +79,7 @@ export const eventos = [
     date: "2023-06-24",
   },
   {
-    hotelId: "MGM Grand Casino",
+    placeId: "MGM Grand Casino",
     name: "KA",
     description:
       "Theatrical show of martial arts with acrobatics and special effects.",
@@ -89,7 +89,7 @@ export const eventos = [
     date: "2023-06-16",
   },
   {
-    hotelId: "MGM Grand Casino",
+    placeId: "MGM Grand Casino",
     name: "David Copperfield",
     description:
       "Magic and visual effects show hosted by famed illusionist David Copperfield.",
@@ -99,7 +99,7 @@ export const eventos = [
     date: "2023-06-18",
   },
   {
-    hotelId: "Caesars Palace",
+    placeId: "Caesars Palace",
     name: "Absinth",
     description:
       "Circus and comedy show in a cabaret environment with live music.",
@@ -109,7 +109,7 @@ export const eventos = [
     date: "2023-06-14",
   },
   {
-    hotelId: "Caesars Palace",
+    placeId: "Caesars Palace",
     name: "Rod Stewart",
     description: "Concert by the famous British rock singer Rod Stewart.",
     photo:

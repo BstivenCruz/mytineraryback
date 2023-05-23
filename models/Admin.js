@@ -6,11 +6,8 @@ const schema = new mongoose.Schema(
     lastName: { type: String, required: true },
     photo: { type: String, required: true },
     age: { type: Number, required: true },
-    email: { type: String, required: true },
-    password: { type: String, required: true },
-    code: { type: String, required: true },
-    verified: { type: Boolean, required: true },
-    logged: { type: Boolean, required: true },
+    userId: { type: mongoose.Types.ObjectId, ref: "cities", required: true },
+    active: { type: Boolean, required: true },
   },
   { timestamps: true }
 );

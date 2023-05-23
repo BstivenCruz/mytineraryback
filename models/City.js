@@ -3,10 +3,9 @@ import mongoose from "mongoose";
 const schema = new mongoose.Schema(
   {
     name: { type: String, required: true },
-    continent: { type: String, required: true },
+    pais: { type: String, required: true },
     photo: { type: String, required: true },
     population: { type: Number, required: true },
-    userId: { type: mongoose.Types.ObjectId, ref: "users", required: true },
   },
   {
     timestamps: true,
