@@ -6,10 +6,9 @@ import jwt from "jsonwebtoken";
 
 const user = {
   signup: async (req, res, next) => {
-    req.body.role = 0;
-    req.body.is_online = false;
-    req.body.is_verified = true;
-    req.body.verify_code = crypto.randomBytes(10).toString("hex");
+    req.body.verified = true;
+    req.body.logged = false;
+    req.body.code = crypto.randomBytes(10).toString("hex");
     req.body.password = bcryptjs.hashSync(req.body.password, 10);
     try {
       await User.create(req.body);
@@ -23,17 +22,13 @@ const user = {
   },
   signin: async (req, res, next) => {
     try {
-      await User.findOneAndUpdate(
-        { email: req.body.email },
-        { is_online: true }
-      );
+      await User.findOneAndUpdate({ email: req.body.email }, { logged: true });
       const token = jwt.sign({ id: req.user.id }, process.env.KEY_JWT, {
         expiresIn: 60 * 60 * 24,
       });
       const user = {
         email: req.user.email,
         photo: req.user.photo,
-        role: req.user.role,
       };
       req.body.success = true;
       req.body.sc = 200;
@@ -46,11 +41,7 @@ const user = {
   signout: async (req, res, next) => {
     const { email } = req.user;
     try {
-      await User.findOneAndUpdate(
-        { email },
-        { is_online: false },
-        { new: true }
-      );
+      await User.findOneAndUpdate({ email }, { logged: false }, { new: true });
       req.body.success = true;
       req.body.sc = 200;
       req.body.data = "come back soon!";
@@ -62,7 +53,9 @@ const user = {
 
   read: async (req, res, next) => {
     try {
-      const users = await User.find();
+      const users = await User.find().select(
+        "-_id  -createdAt -updatedAt -__v"
+      );
       req.body.success = true;
       req.body.sc = 201;
       req.body.data = { users };

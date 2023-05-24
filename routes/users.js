@@ -1,5 +1,5 @@
 import express from "express";
-import passport from "passport";
+import passport from "../config/passport.js";
 import passwordOk from "../middlewares/passwordOk.js";
 import user from "../controllers/users.js";
 const { signup, signin, signout, read } = user;
@@ -9,9 +9,6 @@ const { existSignin, existSignup } = accountExist;
 const router = express.Router();
 
 /* GET users listing. */
-router.get("/", function (req, res, next) {
-  res.send("user");
-});
 
 router.get("/", read);
 router.post("/signup", existSignup, signup);
