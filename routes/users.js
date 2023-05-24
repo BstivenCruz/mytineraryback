@@ -1,5 +1,5 @@
 import express from "express";
-import passport from "../config/passport.js";
+import passport from "../middlewares/passport.js";
 import passwordOk from "../middlewares/passwordOk.js";
 import user from "../controllers/users.js";
 const { signup, signin, signout, read } = user;

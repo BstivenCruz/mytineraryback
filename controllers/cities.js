@@ -1,5 +1,5 @@
 import { City } from "../models/City.js";
-import defaultResponse from "../config/response.js";
+import defaultResponse from "../helpers/response.js";
 
 const city = {
   read: async (req, res, next) => {
