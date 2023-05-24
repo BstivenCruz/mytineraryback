@@ -1,5 +1,5 @@
 import { User } from "../models/User.js";
-import defaultResponse from "../config/response.js";
+import defaultResponse from "../helpers/response.js";
 
 const accountExist = {
   existSignin: async (req, res, next) => {

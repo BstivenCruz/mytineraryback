@@ -1,5 +1,5 @@
 import bycryptjs from "bcryptjs";
-import defaultResponse from "../config/response.js";
+import defaultResponse from "../helpers/response.js";
 
 function passwordOk(req, res, next) {
     

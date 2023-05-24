@@ -1,8 +1,9 @@
 import { User } from "../models/User.js";
-import defaultResponse from "../config/response.js";
+import defaultResponse from "../helpers/response.js";
 import bcryptjs from "bcryptjs";
 import crypto from "crypto";
 import jwt from "jsonwebtoken";
+import { accountVerificationEmail } from "../helpers/nodemailer.js";
 
 const user = {
   signup: async (req, res, next) => {
@@ -11,6 +12,7 @@ const user = {
     req.body.code = crypto.randomBytes(10).toString("hex");
     req.body.password = bcryptjs.hashSync(req.body.password, 10);
     try {
+      await accountVerificationEmail(req, res);
       await User.create(req.body);
       req.body.success = true;
       req.body.sc = 201;
