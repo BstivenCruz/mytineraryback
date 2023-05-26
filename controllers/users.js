@@ -12,8 +12,7 @@ const user = {
     req.body.code = crypto.randomBytes(10).toString("hex");
     req.body.password = bcryptjs.hashSync(req.body.password, 10);
     try {
-      await accountVerificationEmail(req, res);
-      await User.create(req.body);
+     await User.create(req.body);
       req.body.success = true;
       req.body.sc = 201;
       req.body.data = "user created";
