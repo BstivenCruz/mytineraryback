@@ -6,7 +6,7 @@ const city = {
     try {
       const cities = await City.find().select(
         "-_id  -createdAt -updatedAt -__v"
-      );;
+      );
       req.body.success = true;
       req.body.sc = 201;
       req.body.data = { cities };
@@ -15,6 +15,17 @@ const city = {
       next(error);
     }
   },
+  create: async (req, res, next) => {
+    try {
+      await City.create(req.body);
+      req.body.success = true;
+      req.body.sc = 201;
+      req.body.data = "city created";
+      return defaultResponse(req, res);
+    } catch (error) {
+      next(error);
+    }
+  },
 };
 
-export default city
+export default city;
