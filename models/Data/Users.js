@@ -1,21 +1,15 @@
 export const users = [
   {
-    name: "Joaquin",
-    lastName: "Sarmiento",
-    photo: "https://alsum.co/wp-content/uploads/2022/02/Joaquin-Sarmiento.jpg",
-    age: 31,
     email: "joaquin.sar@gmail.com",
     password: "domingo",
+    photo: "https://alsum.co/wp-content/uploads/2022/02/Joaquin-Sarmiento.jpg",
     code: "equipo-rosa",
     verified: true,
     logged: true,
   },
   {
-    name: "Maria Jose",
-    lastName: "Puentes",
     photo:
       "https://pbs.twimg.com/profile_images/1186673569910153218/vo44yV92_400x400.jpg",
-    age: 28,
     email: "maria.jopu@gmail.com",
     password: "domingo",
     code: "equipo-rosa",
@@ -23,11 +17,8 @@ export const users = [
     logged: true,
   },
   {
-    name: "Paolo",
-    lastName: "Ezquivel",
     photo:
       "https://www.mskcc.org/sites/default/files/styles/width_800/public/node/17927/image/paolo.jpg",
-    age: 36,
     email: "paolo.ezqui@gmail.com",
     password: "domingo",
     code: "equipo-rosa",
@@ -35,11 +26,8 @@ export const users = [
     logged: true,
   },
   {
-    name: "Sami",
-    lastName: "Torres",
     photo:
       "https://www.estylomagazine.com/wp-content/uploads/2021/05/Post_Samantha-Torres-01-800x533.jpg",
-    age: 22,
     email: "Sami.torres@gmail.com",
     password: "domingo",
     code: "equipo-rosa",
@@ -47,11 +35,8 @@ export const users = [
     logged: true,
   },
   {
-    name: "Pablo",
-    lastName: "Muñiz",
     photo:
       "https://img.freepik.com/fotos-premium/retrato-hombre-negocios-confiado-afeitar-que-ve-expresion-segura-si-mismo-listo-firmar-poses-contrato-cargo-fondo-blanco-usa-camisa-blanca-corbata-elegante-negocios-personas_95891-13837.jpg",
-    age: 27,
     email: "pablo.muñiz@gmail.com",
     password: "chau6789",
     code: "equipo-rosa",
@@ -59,11 +44,8 @@ export const users = [
     logged: true,
   },
   {
-    name: "Stiven",
-    lastName: "Cruz",
     photo:
       "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-    age: 23,
     email: "stiven.cruz@gmail.com",
     password: "chau6789",
     code: "equipo-rosa",
@@ -71,11 +53,8 @@ export const users = [
     logged: true,
   },
   {
-    name: "Luciana",
-    lastName: "Rovere",
     photo:
       "https://i.pinimg.com/736x/15/1b/df/151bdfbc670e4c326bfe40be3fa2f242.jpg",
-    age: 26,
     email: "luciana.rovere@gmail.com",
     password: "chau6789",
     code: "equipo-rosa",
@@ -83,11 +62,8 @@ export const users = [
     logged: true,
   },
   {
-    name: "Juan",
-    lastName: "Gonzales",
     photo:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
-    age: 30,
     email: "juan.gonzales@gmail.com",
     password: "chau6789",
     code: "equipo-rosa",
