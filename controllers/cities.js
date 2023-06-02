@@ -23,7 +23,7 @@ const city = {
     } catch (error) {
       next(error);
     }
-  }
+  },
 };
 
 export default city;
