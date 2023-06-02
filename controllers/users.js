@@ -3,16 +3,15 @@ import defaultResponse from "../helpers/response.js";
 import bcryptjs from "bcryptjs";
 import crypto from "crypto";
 import jwt from "jsonwebtoken";
-import { accountVerificationEmail } from "../helpers/nodemailer.js";
 
 const user = {
   signup: async (req, res, next) => {
-    req.body.verified = true;
+    req.body.verified = false;
     req.body.logged = false;
     req.body.code = crypto.randomBytes(10).toString("hex");
     req.body.password = bcryptjs.hashSync(req.body.password, 10);
     try {
-     await User.create(req.body);
+      await User.create(req.body);
       req.body.success = true;
       req.body.sc = 201;
       req.body.data = "user created";
@@ -23,17 +22,17 @@ const user = {
   },
   signin: async (req, res, next) => {
     try {
-      await User.findOneAndUpdate({ email: req.body.email }, { logged: true });
+      let user = await User.findOneAndUpdate(
+        { email: req.body.email },
+        { logged: true }
+      ).select("-_id  -createdAt -updatedAt -__v -password -code");
       const token = jwt.sign({ id: req.user.id }, process.env.KEY_JWT, {
         expiresIn: 60 * 60 * 24,
       });
-      const user = {
-        email: req.user.email,
-        photo: req.user.photo,
-      };
+      const  msg = 'welcome'
       req.body.success = true;
       req.body.sc = 200;
-      req.body.data = { user, token };
+      req.body.data = { user, token ,msg};
       return defaultResponse(req, res);
     } catch (error) {
       next(error);
