@@ -4,9 +4,7 @@ import defaultResponse from "../helpers/response.js";
 const city = {
   read: async (req, res, next) => {
     try {
-      const cities = await City.find().select(
-        "-_id  -createdAt -updatedAt -__v"
-      );
+      const cities = await City.find().select("  -createdAt -updatedAt -__v");
       req.body.success = true;
       req.body.sc = 201;
       req.body.data = { cities };
